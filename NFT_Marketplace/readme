@@ -1,0 +1,9 @@
+npx truffle run verify Migrations --network sepolia
+
+npx truffle compile
+
+npx truffle migrate --network sepolia
+
+npx truffle compile
+
+npx truffle run verify NFT --network sepolia
